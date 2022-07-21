@@ -5,7 +5,7 @@ body {
 }
 
 
-/* header section */
+/*................................ header section.................................... */
 
 header {
     background: #161616;
@@ -63,7 +63,10 @@ header {
 }
 
 
-/* Main Section */
+/* headear Section End */
+
+
+/* Main Section  Start*/
 
 main {
     width: 90%;
@@ -74,6 +77,9 @@ main {
 main {
     display: flex;
 }
+
+
+/*.......................... Aside Section Start............................. */
 
 aside {
     width: 312px;
@@ -100,6 +106,12 @@ aside {
     font-size: 20px;
     font-weight: 700;
 }
+
+
+/* Aside Section End */
+
+
+/*............................... Blog Area Start........................... */
 
 .main-content {
     margin-bottom: 50px;
@@ -148,9 +160,18 @@ aside {
     margin-bottom: -8px;
 }
 
+
+/* ...................................Blog Area Start.................................... */
+
 .publish-time p {
     color: rgba(22, 22, 22, 0.7);
 }
+
+
+/* Main Section End */
+
+
+/*........................ footer Section Start................................... */
 
 .footer-section {
     background-color: black;
@@ -178,6 +199,12 @@ aside {
     margin-left: 30px;
 }
 
+
+/*......................... footer Section end .......................................*/
+
+
+/* specila button Start */
+
 .special-btn button {
     width: 100px;
     height: 50px;
@@ -193,6 +220,12 @@ aside {
     margin: 50px;
     display: none;
 }
+
+
+/* specila button Start */
+
+
+/*........................... Responsive Area Start.......................................... */
 
 
 /* Tablet Vew Port 576 to 992 */
