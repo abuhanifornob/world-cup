@@ -108,13 +108,31 @@ aside {
 .blog {
     background-color: #F3F1FF;
     border-radius: 15px;
+    height: 242px;
+}
+
+.match {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px 0 30px;
+}
+
+.match img {
+    width: 100%;
+}
+
+.match-shedule {
+    text-align: center;
+    color: #4D4D4D;
 }
 
 .blog-content {
     padding: 20px;
 }
 
-.blog-btn {
+.upcoming-btn {
     background: #DD0000;
 }
 
@@ -122,34 +140,6 @@ aside {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-}
-
-.blog button {
-    width: 100px;
-    height: 32px;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-.blog-banner img {
-    width: 100%;
-}
-
-.publish-time {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-.publish-time img {
-    width: 26px;
-    height: 26px;
-    margin-bottom: -8px;
-}
-
-.publish-time p {
-    color: rgba(22, 22, 22, 0.7);
 }
 
 .footer-section {
